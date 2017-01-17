@@ -8,5 +8,12 @@
     <artifactId>intellij-tips</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>RELEASE</version>
+        </dependency>
 
+    </dependencies>
 </project>
