@@ -12,10 +12,11 @@ public class InterfaceUsedHere {
         anotherInterface.bar();
 
         InterfaceUsedHere instance = new InterfaceUsedHere();
+        instance.qux(() -> System.out.println("lambda here"));
 
     }
 
-    public void qux(AnInterface anInterface) {
+    private void qux(AnInterface anInterface) {
         anInterface.bar();
     }
 }
