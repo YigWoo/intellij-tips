@@ -3,7 +3,7 @@ package com.yigwoo.navigation;
 public class NavToError {
 
     public void SomeErrorHere() {
-//        System.out.println('Hello Error');
+        System.out.println('Hello Error');
     }
 
     public void qox() {
@@ -45,10 +45,10 @@ public class NavToError {
     }
 
     public void anErrorHereToo() {
-//        System.out.println("I Have an" Error);
+        System.out.println("I Have an" Error);
     }
 
     public void thirdError() {
-//        hehe
+        hehe
     }
 }
